@@ -3,8 +3,8 @@
  * [Description](#description)
  * [Dependencies](#dependencies)
  * [Setup](#setup)
- * [Observe Processes](observe-processes)
- * [Create an Event](create-an-event)
+ * [Observe Processes](#observe-processes)
+ * [Create an Event](#create-an-event)
 
 ### Description
 
