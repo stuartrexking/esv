@@ -10,6 +10,8 @@
 
 The Vagrantfile will create a three node [Event Store](https://geteventstore.com/) cluster using [Consul](https://consul.io/) for discovery (via DNS) and [dnsmasq](http://www.thekelleys.org.uk/dnsmasq/doc.html) for DNS Forwarding.
 
+This Vagrantfile simply builds and runs a basic cluster on Vagrant. It's intention is to show some important pieces working together, primarily a discovery service (consul, but could be etcd or whatever), dns forwarding (using dnsmasq but could be bind or whatever) and a replicated database, in this case [Event Store](https://geteventstore.com/)
+
 ### Dependencies
 
 1. Install [Vagrant](https://www.vagrantup.com/)
